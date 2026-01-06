@@ -1,0 +1,31 @@
+/* style for the search bar */
+
+.search{
+    --padding: 14px;
+    display: flex;
+    align-items: center;
+    padding: var(--padding);
+    background-color: #f6f6f6;
+    border-radius:  28px;
+    width:500px;
+    transition: box-shadow 0.25s;
+}
+
+.search:focus-within{
+    box-shadow:0 0 2px rgba(0,0,0,0.75);
+}
+
+.search-input{
+    font-size: 16px;
+    font-family: 'Lexend',sans-serif;
+    color: black;
+    margin-left: var(--padding);
+    outline: none;
+    border: none;
+    background: transparent;
+    flex: 1;
+}
+
+.search-input::placeholder,.search-icon{
+    color: rgba(0,0,0,0.0.5);
+}
