@@ -1,1 +1,1 @@
-console.log("Is this still working?");
+console.log(typeof null);
